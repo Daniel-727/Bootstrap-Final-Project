@@ -1,3 +1,29 @@
 body{
     font-family: 'Varela Round', sans-serif;
+    
+}
+
+.s1{
+    background-image:url(../imgs/coffeetable.jpg);
+    background-size: cover;
+    height:130vh;
+    z-index: -1;
+}
+
+.s2{
+    background-image:url(../imgs/coffeebeerbar.jpg);
+    background-size: cover;
+    height:50vh;
+    z-index: -1;
+}
+
+.s3{
+    background-image:url(../imgs/espressomachine.jpg);
+    background-size: cover;
+    height:100vh;
+    z-index: -1;
+}
+
+nav{
+    z-index: index 1;
 }
