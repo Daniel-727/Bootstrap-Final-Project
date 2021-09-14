@@ -27,3 +27,8 @@ body{
 nav{
     z-index: index 1;
 }
+
+/*code below is to make it so the text won't create new rows*/
+.nav-item{
+    white-space:nowrap;
+}
