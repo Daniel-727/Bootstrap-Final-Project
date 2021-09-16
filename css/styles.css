@@ -24,6 +24,11 @@ body{
     z-index: -1;
 }
 
+.s4{
+    height:100vh;
+    z-index: -1;
+}
+
 nav{
     z-index: index 1;
 }
@@ -31,4 +36,8 @@ nav{
 /*code below is to make it so the text won't create new rows*/
 .nav-item{
     white-space:nowrap;
+}
+
+.carousel-indicators{
+    cursor: pointer;
 }

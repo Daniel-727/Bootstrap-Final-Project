@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
     <!--Bootstrap CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--Font-awesome CDN-->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
@@ -29,14 +29,14 @@
 
         <!--Navbar-->
         <nav class="navbar navbar-expand-sm navbar-light bg-white">
-            <a class="navbar-brand" href="#"><i class="fa fa-coffee fa-3x"></i></a>
+            <a class="navbar-brand ml-4" href="#"><i class="fa fa-coffee fa-3x"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             
             <div class="collapse navbar-collapse" id="navlinks">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ml-auto mr-3">
                     <li class="nav-item"><a class="nav-link" href="#">HOME |</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">LOCATIONS |</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">JOIN OUR TEAM |</a></li>
@@ -50,12 +50,12 @@
 
         <div class="container justify-content-center">
             <div class="row">
-                <div class="col col-md-8  mx-auto mt-3 mb-3"><button type="button" class="btn btn-light jumbotron"><a>CHECK YOUR GIFT CARD      
+                <div class="col col-md-8  mx-auto mt-3 mb-3"><button type="button" class="btn btn-light text-muted"><a>CHECK YOUR GIFT CARD      
                     BALANCE - OR - PURCHASE EGIFT CARDS</a></button>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-md-8 mx-auto mt-3 mb-3"><button type="button" class="btn btn-light jumbotron"><a>ORDER COFFEE 
+                <div class="col col-md-8 mx-auto mt-3 mb-3"><button type="button" class="btn btn-light text-muted"><a>ORDER COFFEE 
                     ONLINE - CLICK HERE - COFFEE AT YOUR DOOR</a></button>
                 </div>
             </div>
@@ -68,53 +68,120 @@
             <div class="row">
                 <div class="col">
                     <div id="coffeeCarousel" class="carousel slide" data-ride="carousel">
+
+                        <!--Carousel indicators-->
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#coffeeCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#coffeeCarousel" data-slide-to="1"></li>
+                            <li data-target="#coffeeCarousel" data-slide-to="2"></li>
+                            <li data-target="#coffeeCarousel" data-slide-to="3"></li>
+                            <li data-target="#coffeeCarousel" data-slide-to="4"></li>
+                            <li data-target="#coffeeCarousel" data-slide-to="5"></li>
+                        </ol>
+
+
+
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-50" src="imgs/holdingcoffee.jpg" alt="First slide">
+                            <div class="carousel-item active center-block">
+                                <img class="d-block w-100" src="imgs/blackcoffee.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item center-block">
+                                <img class="d-block w-100" src="imgs/coffeebean.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/coffeebean.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="imgs/pourthecoffee.jpg" alt="Third slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/pourthecoffee.jpg" alt="Third slide">
+                                <img class="d-block w-100" src="imgs/coffeewithfriends.jpg" alt="Fourth slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/espressomachine.jpg" alt="Fourth slide">
+                                <img class="d-block w-100" src="imgs/coffeemachine.jpg" alt="Fifth slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/coffeewithfriends.jpg" alt="Fifth slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/coffeesign.jpg" alt="Sixth slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-50" src="imgs/coffeedrip.jpg" alt="Seventh slide">
+                                <img class="d-block w-100" src="imgs/coffeedrip.jpg" alt="Sixth slide">
                             </div>
                         </div>
+
+                        <!--Carousel controls-->
+
+                        <a class="carousel-control-prev" href="#coffeeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#coffeeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!--Text under Carousel-->
+
+        <h1 class="text-center mt-5 text-white display-1">EXPERIENCE HEROIC HOSPITALITY</h1>
+
 
     </section>
 
-    <section class="s2 my-5">
+    <!--section 2-->
+
+    <section class="s2 mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col mt-5 col-md-8">
+                    <p class="text-white h3 ">We create unigue experiences that change lives and bring people back. We do this by loving and serving people, by preparing top notch, handcrafted food and beverages, and by creating an environment where real relationships are fostered.</p>
+                </div>
+            </div>
+        </div>
+        
 
     </section>
 
-    <section class="s3 my-5">
+
+    <!--section 3-->
+
+    <section class="s3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
         
     </section>
+
+
+    <!--section 4 requires cards-->
+
+    <section class="s4">
+
+    </section>
     
 
 
     
 
-    <!--JS scripts for bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
     <script>
-        $('.carousel').carousel({interval: 2000})
+        $(function() {
+            $('.carousel').carousel({interval: 4000})
+        });
+        
     </script>
 </body>
 </html>
