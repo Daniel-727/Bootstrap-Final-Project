@@ -6,22 +6,23 @@ body{
 .s1{
     background-image:url(../imgs/coffeetable.jpg);
     background-size: cover;
-    height:130vh;
+    height:auto;
     z-index: -1;
 }
 
 .s2{
     background-image:url(../imgs/coffeebeerbar.jpg);
     background-size: cover;
-    height:50vh;
+    height:auto;
     z-index: -1;
 }
 
 .s3{
     background-image:url(../imgs/espressomachine.jpg);
     background-size: cover;
-    height:100vh;
+    height:auto;
     z-index: -1;
+    color:white;
 }
 
 .s4{
@@ -40,4 +41,9 @@ nav{
 
 .carousel-indicators{
     cursor: pointer;
+}
+
+.menu{
+    background-color:rgba(0,0,0,0.5);
+    border-radius:3rem;
 }
