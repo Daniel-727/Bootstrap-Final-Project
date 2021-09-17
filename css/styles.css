@@ -52,3 +52,8 @@ nav{
     font-weight:bold;
     font-size:xx-large;
 }
+
+.btn{
+    width:auto;
+    height:auto;
+}
