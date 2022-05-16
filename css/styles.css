@@ -10,6 +10,21 @@ body{
     z-index: -1;
 }
 
+.button-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-display-first{
+    margin: 40px 0 ;
+}
+
+.button-display-last{
+    margin-bottom: 40px;
+}
+
+
 .s2{
     background-image:url(../imgs/coffeebeerbar.jpg);
     background-size: cover;
